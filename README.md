@@ -19,4 +19,4 @@ We are proud of our final product as it looks very sleek and modern while implem
 We learned how to manage over 100 Tkinter widgets and how we can use Python Polymorphism to share data across our platform. We also learned how robust the data management tools provided by google are and how flexible they can be to serve our needs. Twillio is the first service API that we used that accessed phone numbers and we were able to use it to verify users successfully.
 
 ## What's next for Auto-Auction 🏃
-The following steps are improving the speed of our application or thinking about transitioning into a web-based application. We also aim to bring this application onto mobile devices, and over multi-factor authentication using email. We also have a goal to make Auto-Auction
+The following steps are improving the speed of our application or thinking about transitioning into a web-based application. We also aim to bring this application onto mobile devices, and over multi-factor authentication using email. We also have a goal to make Auto-Auction.
