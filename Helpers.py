@@ -103,8 +103,8 @@ def VerifyUser(number: str):
     from twilio.rest import Client
     from random import randint
     code = randint(1000000, 9999999)
-    account_sid = 'ACe52cd1bed6f876f7a5bad70ef28bf4e8'
-    auth_token = '070a76cbea69fdc82ae3de8752a01b53'
+    account_sid = 'REDACTED'
+    auth_token = 'REDACTED'
     client = Client(account_sid, auth_token)
     number = number.strip().replace(" ", "")
     number = "+1" + number
@@ -202,8 +202,8 @@ def BuyItem(amount, auction, buyer):
 
     #Text buyer
     from twilio.rest import Client
-    account_sid = 'ACe52cd1bed6f876f7a5bad70ef28bf4e8'
-    auth_token = '070a76cbea69fdc82ae3de8752a01b53'
+    account_sid = 'REDACTED'
+    auth_token = 'REDACTED'
     client = Client(account_sid, auth_token)
     number = "+1" + number
     message = client.messages.create(
@@ -240,8 +240,8 @@ def BuyItem(amount, auction, buyer):
 
     #Text seller
     from twilio.rest import Client
-    account_sid = 'ACe52cd1bed6f876f7a5bad70ef28bf4e8'
-    auth_token = '070a76cbea69fdc82ae3de8752a01b53'
+    account_sid = 'REDACTED'
+    auth_token = 'REDACTED'
     client = Client(account_sid, auth_token)
     number = "+1" + number
     message = client.messages.create(
@@ -285,8 +285,8 @@ def ForgotPassword(number):
     if password == "":
         return
 
-    account_sid = 'ACe52cd1bed6f876f7a5bad70ef28bf4e8'
-    auth_token = '070a76cbea69fdc82ae3de8752a01b53'
+    account_sid = 'REDACTED'
+    auth_token = 'REDACTED'
     client = Client(account_sid, auth_token)
     number = "+1" + str(number)
     message = client.messages.create(
