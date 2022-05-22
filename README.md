@@ -1,4 +1,6 @@
 # Auto Auction
+A platform that hosts interactions between consumers by allowing them to put up items for auction while bidding for other items in a quick and secure fashion, erasing any possible frauds.
+
 
 ## Inspiration ⭐ 
 Our inspiration for our project came from our personal experiences with auction sites like eBay. In these auction sites, bids can be placed to outbid another and that bid does not have to be paid effectively denying your purchases or making a bid at a higher price. So we thought of ways to fix this issue and make the e-commerce websites like these much better for everyone.
